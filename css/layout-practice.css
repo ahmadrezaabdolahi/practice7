@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 70%;
+  margin-left: 15%;
+  float: left;
+}
+.text-primery {
+  color: #940d32;
+}
+/*header*/
+.header {
+  width: 100%;
+  background: violet url("../image/pic.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 180px 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+.header .icon-header {
+  font-size: 70px;
+  color: #940d32;
+  margin-bottom: 50px;
+}
+.header h1 {
+  color: white;
+  font-size: 50px;
+}
+.header h2 {
+  color: aliceblue;
+  margin: 40px 0;
+}
+.header a {
+  color: antiquewhite;
+  text-decoration: none;
+  background-color: #940d32;
+  padding: 10px 24px;
+}
+/* main */
+.main {
+  width: 100%;
+  float: left;
+}
+/* about us */
+.about-us {
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+  float: left;
+}
+.about-us-option {
+  width: 100%;
+  float: left;
+}
+/* about us box */
+.about-us-box {
+  width: 32%;
+  float: left;
+}
+.about-us-box p {
+  padding: 0 5px;
+}
+.about-us-box h3 {
+  font-size: 20px;
+  font-family: sans-serif;
+  margin: 15px 0;
+}
+.about-us-mid {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.about-us-icon {
+  font-size: 50px;
+  color: #940d32;
+}
+/* symbol */
+.symbol {
+  width: 100%;
+  background-color: #940d32;
+  float: left;
+  margin-top: 40px;
+  padding: 40px 0px;
+  text-align: center;
+}
+.symbol-box {
+  width: 32%;
+  float: left;
+  color: white;
+  text-align: center;
+}
+.symbol-box h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.symbol-mid {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.symbol-box a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border: solid 1px white;
+}
+/*customer */
+.customer {
+  width: 100%;
+  float: left;
+  background-color: gray;
+  padding: 50px 0px;
+}
+/* our address */
+.our-address {
+  background-color: white;
+  width: 60%;
+  float: left;
+  padding: 20px;
+}
+.our-address p {
+  margin: 10px 0;
+  font-family: sans-serif;
+}
+/* our visitors */
+.our-visitors {
+  width: 38%;
+  background-color: #940d32;
+  float: left;
+  margin-left: 2%;
+  padding: 58px 0;
+}
+/* our-visitors */
+.our-visitors div {
+  width: 25%;
+  float: left;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+/* our-locations */
+.our-locations {
+  width: 100%;
+  float: left;
+}
+.our-locations-inner {
+  width: 100%;
+  float: left;
+}
+.our-locations-inner > h2 {
+  padding: 50px 0px;
+  text-align: center;
+  font-family: sans-serif;
+  width: 100%;
+}
+/* our-location-row */
+.our-locations-row {
+  width: 100%;
+  float: left;
+  margin-bottom: 50px;
+}
+.any-location {
+  width: 32%;
+  float: left;
+}
+.any-location-mid {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.any-location h3 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+.any-location p {
+  margin-bottom: 5px;
+  text-align: center;
+}
+.any-location .location-pragraph {
+  padding: 15px 0;
+}
+.any-location .any-location-img {
+  width: 100%;
+  height: 200px;
+  border: #940d32 2px solid;
+  margin-bottom: 15px;
+}
+/*any-location-images */
+.any-location-img1 {
+  background: url("../image/city1.jpg") no-repeat center top;
+  background-size: cover;
+}
+.any-location-img2 {
+  background: url("../image/city5.jpg") no-repeat center top;
+  background-size: cover;
+}
+
+.any-location-img3 {
+  background: url("../image/other4.jpg") no-repeat center top;
+  background-size: cover;
+}
+.any-location-img4 {
+  background: url("../image/25.jpg") no-repeat center top;
+  background-size: cover;
+}
+.any-location-img5 {
+  background: url("../image/8.JPG") no-repeat center top;
+  background-size: cover;
+}
+.any-location-img6 {
+  background: url("../image/18.JPG") no-repeat center top;
+  background-size: cover;
+}
+/* footer */
+.footer {
+  width: 100%;
+  float: left;
+  background-color: #940d32;
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px 0px;
+}
